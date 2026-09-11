@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#170F1F">
+    <meta name="description" content="Infografía sobre el impacto de la inteligencia artificial generativa en el diseño y el arte digital: las demandas por derechos de autor y las consecuencias en el trabajo de ilustradores, diseñadores y modeladores 3D.">
+
+    <title>El Impacto de la IA en el diseño y arte digital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+    <div class="progresoScroll" aria-hidden="true"><span id="barraProgreso"></span></div>
+
+    <div class="destello" data-parallax="-0.06" aria-hidden="true"></div>
+
+    <svg class="sprite" aria-hidden="true" focusable="false">
+        <symbol id="icoChevron" viewBox="0 0 24 24">
+            <path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icoFlechaArriba" viewBox="0 0 24 24">
+            <path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+    </svg>
+
+    <!--
+    ==================================================
+                         HEADER
+    ==================================================
+    -->
+
+    <header>
+
+        <h1 class="tituloPrincipal">El impacto de la <span class="resaltado2">IA</span> en el diseño y el arte digital</h1>
+
+    </header>
+
+    <!--
+    ==================================================
+                    MAIN Y SECCIONES
+    ==================================================
+    -->
+
+    <main>
+
+        <!--                           PORTADA                               -->
+
+        <section class="portada">
+
+            <h3 data-revelar>Un viaje por las disputas legales del arte digital y su nuevo mapa laboral</h3>
+
+            <div class="manoWrap" data-parallax="0.07">
+                <img src="./img/Mano.png" class="mano" alt="Mano robótica sosteniendo un destello de luz" width="1397" height="1364" fetchpriority="high" decoding="async">
+            </div>
+
+            <div class="intro" data-revelar>
+
+                <p>Esta experiencia recorre el impacto de la <span class="resaltado">generación de imágenes con inteligencia artificial</span> en el diseño y el arte digital, a través de dos ejes: las demandas judiciales que enfrentan las empresas de IA por el uso no autorizado de obras, y las consecuencias reales para el trabajo de ilustradores, diseñadores y modeladores 3D.</p>
+
+            </div>
+
+            <div class="indicadorScroll" data-revelar aria-hidden="true">
+                <svg viewBox="0 0 24 24"><use href="#icoChevron"/></svg>
+            </div>
+
+        </section>
+
+        <!-- ====================================================
+                                     SECCION 1
+            ========================================================-->
+
+        <section class="seccion1">
+
+            <div class="contSeccion1">
+
+                <h2 data-revelar>Demandas por derechos de autor</h2>
+
+                <p class="bajada" data-revelar>La IA generativa requiere billones de obras humanas para entrenarse; Esto dio inicio a la batalla judicial más grande de la era digital sobre propiedad intelectual</p>
+
+                <div class="contenedorTarjetas" id="lineaTiempo">
+
+                    <svg class="conectores" id="conectoresTiempo" aria-hidden="true" focusable="false"></svg>
+
+                    <article class="tarjeta" data-revelar>
+                        <h4 class="tarjetaTitulo">Enero 2023: Sarah Andersen vs Stability AI</h4>
+                        <div class="tarjetaMedia">
+                            <img src="img/tarjeta1.png" alt="Sarah Andersen junto al logotipo de Stability AI" width="468" height="268" loading="lazy" decoding="async">
+                        </div>
+                        <div class="tarjetaDetalle" id="caso1">
+                            <div>
+                                <p>Tres ilustradoras demandaron a Stability AI, Midjourney y DeviantArt por haber usado sus obras para entrenar modelos generativos sin autorización.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="tarjetaFlecha" aria-expanded="false" aria-controls="caso1" aria-label="Ver más sobre el caso Sarah Andersen vs Stability AI">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoChevron"/></svg>
+                        </button>
+                    </article>
+
+                    <article class="tarjeta" data-revelar>
+                        <h4 class="tarjetaTitulo">Enero 2023: Getty Images vs Stability AI</h4>
+                        <div class="tarjetaMedia">
+                            <img src="img/tarjeta2.png" alt="Logotipos de Stability AI y Getty Images" width="468" height="268" loading="lazy" decoding="async">
+                        </div>
+                        <div class="tarjetaDetalle" id="caso2">
+                            <div>
+                                <p>Getty Images acusó a Stability AI de copiar millones de fotografías de su catálogo: el modelo llegaba a reproducir su marca de agua.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="tarjetaFlecha" aria-expanded="false" aria-controls="caso2" aria-label="Ver más sobre el caso Getty Images vs Stability AI">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoChevron"/></svg>
+                        </button>
+                    </article>
+
+                    <article class="tarjeta" data-revelar>
+                        <h4 class="tarjetaTitulo">Febrero 2023: Caso Zarya of the Dawn</h4>
+                        <div class="tarjetaMedia">
+                            <img src="img/tarjeta3.png" alt="Autora sosteniendo el cómic Zarya of the Dawn" width="468" height="268" loading="lazy" decoding="async">
+                        </div>
+                        <div class="tarjetaDetalle" id="caso3">
+                            <div>
+                                <p>La Oficina de Copyright de Estados Unidos registró el cómic, pero dejó fuera las imágenes hechas con Midjourney: sin autoría humana no hay derecho de autor.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="tarjetaFlecha" aria-expanded="false" aria-controls="caso3" aria-label="Ver más sobre el caso Zarya of the Dawn">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoChevron"/></svg>
+                        </button>
+                    </article>
+
+                    <article class="tarjeta" data-revelar>
+                        <h4 class="tarjetaTitulo">Abril 2025: Efecto Ghibli de ChatGPT</h4>
+                        <div class="tarjetaMedia">
+                            <img src="img/tarjeta4.png" alt="Fotografía transformada al estilo del Studio Ghibli" width="468" height="268" loading="lazy" decoding="async">
+                        </div>
+                        <div class="tarjetaDetalle" id="caso4">
+                            <div>
+                                <p>La ola de imágenes al estilo Ghibli generadas con ChatGPT puso en discusión hasta dónde puede imitarse un estilo artístico reconocible.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="tarjetaFlecha" aria-expanded="false" aria-controls="caso4" aria-label="Ver más sobre el efecto Ghibli de ChatGPT">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoChevron"/></svg>
+                        </button>
+                    </article>
+
+                    <article class="tarjeta" data-revelar>
+                        <h4 class="tarjetaTitulo">Junio 2025: Disney-Universal vs Midjourney</h4>
+                        <div class="tarjetaMedia">
+                            <img src="img/tarjet5.png" alt="Logotipos de Disney, Universal y Midjourney" width="468" height="268" loading="lazy" decoding="async">
+                        </div>
+                        <div class="tarjetaDetalle" id="caso5">
+                            <div>
+                                <p>Dos de los estudios más grandes de Hollywood llevaron a juicio a Midjourney por generar personajes protegidos de sus franquicias.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="tarjetaFlecha" aria-expanded="false" aria-controls="caso5" aria-label="Ver más sobre el caso Disney-Universal vs Midjourney">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoChevron"/></svg>
+                        </button>
+                    </article>
+
+                    <article class="tarjeta" data-revelar>
+                        <h4 class="tarjetaTitulo">Actualidad</h4>
+                        <div class="tarjetaMedia">
+                            <img src="img/tarjeta6.png" alt="Balanza de la justicia" width="468" height="268" loading="lazy" decoding="async">
+                        </div>
+                        <div class="tarjetaDetalle" id="caso6">
+                            <div>
+                                <p>Los litigios siguen abiertos y todavía no existe un criterio unificado sobre el uso de obras protegidas para entrenar modelos de IA.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="tarjetaFlecha" aria-expanded="false" aria-controls="caso6" aria-label="Ver más sobre la situación actual">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoChevron"/></svg>
+                        </button>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ====================================================
+                                     SECCION 2
+            ========================================================-->
+
+        <section class="seccion2">
+
+            <div class="contSeccion2">
+
+                <h2 data-revelar>Impacto laboral</h2>
+
+                <div class="contenedorTarjetas2">
+
+                    <figure class="bloqueGrafico" data-revelar>
+
+                        <figcaption>La IA generativa expandió el mercado de imágenes:</figcaption>
+
+                        <div class="grafico" data-grafico data-min="0" data-max="100" data-paso="10">
+                            <div class="graficoDatos"><table>
+                                <caption>Variación de la producción y las ventas de imágenes tras la llegada de la IA generativa</caption>
+                                <thead>
+                                    <tr><th scope="col">Categoría</th><th scope="col">Variación</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><span class="graficoNombre">Producción total</span><span class="graficoNota">con IA + sin IA</span></th>
+                                        <td>+78%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><span class="graficoNombre">Ventas totales</span><span class="graficoNota">con IA + sin IA</span></th>
+                                        <td>+39%</td>
+                                    </tr>
+                                </tbody>
+                            </table></div>
+                        </div>
+
+                    </figure>
+
+                    <figure class="bloqueGrafico" data-revelar>
+
+                        <figcaption>Pero también cambió quiénes producen y quiénes directamente dejan de hacerlo:</figcaption>
+
+                        <div class="grafico" data-grafico data-min="-100" data-max="100" data-paso="20">
+                            <div class="graficoDatos"><table>
+                                <caption>Variación de productores activos con IA frente a artistas activos sin IA</caption>
+                                <thead>
+                                    <tr><th scope="col">Categoría</th><th scope="col">Variación</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><span class="graficoNombre">Total productores activos</span><span class="graficoNota">con IA + sin IA</span></th>
+                                        <td>+88%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><span class="graficoNombre">Artistas activos</span><span class="graficoNota">sin IA</span></th>
+                                        <td>-23%</td>
+                                    </tr>
+                                </tbody>
+                            </table></div>
+                        </div>
+
+                    </figure>
+
+                    <div class="tarjeta2" data-revelar>
+                        <h2 data-contador="39" data-prefijo="+" data-sufijo="%">+39%</h2>
+                        <p>Ventas totales pese a la caída del contenido sin IA</p>
+                    </div>
+
+                </div>
+
+                <p class="bajada" data-revelar>En paralelo, otro estudio analizó más de un millón de publicaciones de trabajo en una <span class="resaltado">plataforma freelance global</span>, y registró menos publicaciones de trabajo en diseño gráfico y modelado 3D tras la llegada de las IA generadoras de imágenes:</p>
+
+                <div class="contenedorTarjetas2">
+
+                    <div class="tarjeta2" data-revelar>
+                        <h2 data-contador="18" data-prefijo="-" data-sufijo="%">-18%</h2>
+                        <p>Diseño gráfico</p>
+                    </div>
+
+                </div>
+
+                <p class="bajada" data-revelar>Eso ya se nota en la disminución de publicaciones de trabajo:</p>
+
+                <div class="contenedorTarjetas2">
+
+                    <div class="tarjeta2" data-revelar>
+                        <img src="img/icono2.1.png" class="icono" alt="" width="48" height="48" loading="lazy" decoding="async">
+                        <h2><span class="resaltado4" data-contador="18.5" data-decimales="1" data-prefijo="-" data-sufijo="%">-18,5%</span></h2>
+                        <p>ofertas de trabajo publicadas para tareas de diseño gráfico</p>
+                    </div>
+
+                    <div class="tarjeta2" data-revelar>
+                        <img src="img/icono2.2.png" class="icono" alt="" width="48" height="48" loading="lazy" decoding="async">
+                        <h2><span class="resaltado4" data-contador="15.6" data-decimales="1" data-prefijo="-" data-sufijo="%">-15,6%</span></h2>
+                        <p>ofertas de trabajo publicadas para tareas de modelado 3D</p>
+                    </div>
+
+                </div>
+
+                <p class="bajada" data-revelar>Además de golpear la economía de casi un tercio de los ilustradores:</p>
+
+                <div class="userTarjeta">
+
+                    <div class="tarjeta2 tarjetaAncha tarjetaDato" id="tarjetaDato" data-revelar>
+
+                        <div class="userZona">
+
+                            <p class="userNota" id="userNota" aria-hidden="true"></p>
+
+                            <div class="user" id="waffle">
+                                <span class="usuario afectado" data-grupo="afectado" aria-hidden="true">
+                                    <img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async">
+                                    <img src="img/user-violeta.png" alt="" class="relleno" width="48" height="48" loading="lazy" decoding="async">
+                                </span>
+                                <span class="usuario afectado" data-grupo="afectado" aria-hidden="true">
+                                    <img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async">
+                                    <img src="img/user-violeta.png" alt="" class="relleno" width="48" height="48" loading="lazy" decoding="async">
+                                </span>
+                                <span class="usuario afectado" data-grupo="afectado" aria-hidden="true">
+                                    <img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async">
+                                    <img src="img/user-violeta.png" alt="" class="relleno" width="48" height="48" loading="lazy" decoding="async">
+                                </span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                                <span class="usuario" data-grupo="resto" aria-hidden="true"><img src="img/user-blanco.png" alt="" class="base" width="48" height="48" loading="lazy" decoding="async"></span>
+                            </div>
+
+                        </div>
+
+                        <h2 data-contador="32" data-sufijo="%">32%</h2>
+                        <p>perdió comisiones por alternativas de IA</p>
+                        <p class="resaltado3">— pérdida promedio: £9.262 por artista afectado</p>
+
+                    </div>
+
+                </div>
+
+                <p class="bajada" data-revelar>Para conseguir esas comisiones, esos mismos ilustradores necesitan exponerse online:</p>
+
+                <div class="flujo" id="flujo">
+
+                    <svg class="conectores" id="conectores" aria-hidden="true" focusable="false"></svg>
+
+                    <div class="nivel">
+                        <button type="button" class="tarjeta2 nodo nodoInicial" id="nodoInicial" aria-expanded="false" aria-controls="ramas" data-revelar>
+                            <span class="etiqueta">Publicar trabajo online</span>
+                            <span class="pista">Tocá para continuar</span>
+                        </button>
+                    </div>
+
+                    <div class="ramas" id="ramas">
+
+                        <div class="ramasInterior">
+
+                            <button type="button" class="tarjetaVerde nodo nodoRama" aria-expanded="false" aria-controls="detalleVerde">
+                                <span class="etiqueta">Visibilidad y clientes</span>
+                                <span class="detalle" id="detalleVerde"><span class="resaltado3">Consiguen encargos</span></span>
+                            </button>
+
+                            <button type="button" class="tarjetaRoja nodo nodoRama" aria-expanded="false" aria-controls="detalleRojo">
+                                <span class="etiqueta">Exposición al scraping</span>
+                                <span class="detalle" id="detalleRojo"><span class="resaltado3">Usan su obra sin permiso para entrenar IAs</span></span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="nivelFinal" id="nivelFinal">
+                        <div class="finalInterior">
+                            <div class="tarjeta2 nodoFinal" id="nodoFinal">
+                                <h2 data-contador="87" data-sufijo="%">87%</h2>
+                                <p>de los ilustradores teme que excluirse perjudique su alcance laboral</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ====================================================
+                                     SECCION 3
+            ========================================================-->
+
+        <section class="seccion3">
+
+            <div class="contSeccion3">
+
+                <h2 data-revelar>Fuentes</h2>
+
+                <h3 data-revelar>Núcleo 1:</h3>
+
+                <nav data-revelar>
+                    <ol>
+                        <li><a href="https://ailawsuittracker.com/cases/andersen-v-stability-ai-ltd-3-23-cv-00201/" target="_blank" rel="noopener">Andersen v. Stability AI: Case Status May 2026 | AI Lawsuit Tracker (05/05/2026)</a></li>
+
+                        <li><a href="https://ailawsuittracker.com/cases/getty-v-stability-ai/" target="_blank" rel="noopener">Getty Images v. Stability AI: Case Status May 2026 | AI Lawsuit Tracker (20/05/2026)</a></li>
+
+                        <li><a href="https://www.uoc.edu/es/news/2025/inteligencia-artificial-apropiacion-indebida-arte-derechos-de-autor" target="_blank" rel="noopener">La inteligencia artificial frente al arte y los derechos de autor: ¿apropiación indebida? | UOC (08/05/2025)</a></li>
+
+                        <li><a href="https://ailawsuittracker.com/blog/disney-v-midjourney-explained/" target="_blank" rel="noopener">Disney v. Midjourney Explained — Hollywood AI Case | AI Lawsuit Tracker (26/04/2026)</a></li>
+
+                        <li><a href="https://www.brookings.edu/articles/ai-and-the-visual-arts-the-case-for-copyright-protection/" target="_blank" rel="noopener">AI and the visual arts: The case for copyright protection | Brookings (18/04/2025)</a></li>
+                    </ol>
+                </nav>
+
+                <h3 data-revelar>Núcleo 2:</h3>
+
+                <nav data-revelar>
+                    <ol>
+                        <li><a href="https://www.gsb.stanford.edu/faculty-research/working-papers/generative-ai-equilibrium-evidence-creative-goods-marketplace" target="_blank" rel="noopener">Generative AI in Equilibrium: Evidence from a Creative Goods Marketplace | Stanford Graduate School of Business (20/05/2025)</a></li>
+
+                        <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4602944" target="_blank" rel="noopener">Who Is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms | SSRN (25/01/2025)</a></li>
+
+                        <li><a href="https://theaoi.com/news/the-aoi-ai-survey-results" target="_blank" rel="noopener">UK Illustrators Draw the Line: AOI Publishes AI Survey Results | Association of Illustrators (febrero de 2025)</a></li>
+                    </ol>
+                </nav>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--
+    ==================================================
+                        FOOTER
+    ==================================================
+    -->
+
+    <footer>
+
+        <p>El impacto de la IA en el diseño y el arte digital</p>
+
+    </footer>
+
+    <button type="button" class="subir" id="subir" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icoFlechaArriba"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
